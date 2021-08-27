@@ -7,8 +7,8 @@
 **Table of Contents**
 
 - [Overview](#Overview)
-- [How does it work?](#How-does-it-work?)
-- [Poke-examples!](#Poke-examples!)
+- [How does it work?](#how-does-it-work)
+- [Poke-examples!](#poke-examples)
 - [License](#License)
 
 ## Overview
