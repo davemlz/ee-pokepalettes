@@ -4,6 +4,13 @@
 [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Twitter Badge](https://img.shields.io/twitter/follow/dmlmont?style=social)](https://twitter.com/dmlmont)
 
+**Table of Contents**
+
+- [Overview](#Overview)
+- [How does it work?](#How-does-it-work?)
+- [Poke-examples!](#Poke-examples!)
+- [License](#License)
+
 ## Overview
 
 [Google Earth Engine](https://earthengine.google.com/) (GEE) is a cloud-based service for geospatial processing of vector and raster data. The Earth Engine platform has a [JavaScript and a Python API](https://developers.google.com/earth-engine/guides) with different methods to process geospatial objects. Google Earth Engine also provides a [HUGE PETABYTE-SCALE CATALOG](https://developers.google.com/earth-engine/datasets/) of raster and vector data that users can process online. The ee-pokepalettes is a just-for-fun module that allows you to use [Pokemon Color Palettes](https://pokepalettes.com/) to plot your data in GEE!
@@ -53,6 +60,12 @@ Or by using a key:
 
 ```javascript
 print(poke.palettes["mr. mime"])
+```
+
+Create a color bar using `colorbar(title,minValue,maxValue,palette)`:
+
+```javascript
+print(poke.colorbar("My title",0,100,poke.palettes.charmander))
 ```
 
 ## Poke-examples!
