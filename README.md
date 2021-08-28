@@ -7,8 +7,8 @@
 **Table of Contents**
 
 - [Overview](#Overview)
-- [How does it work?](#how-does-it-work)
-- [Poke-examples!](#poke-examples)
+- [How does it work?](#How-does-it-work?)
+- [Poke-examples!](#Poke-examples!)
 - [License](#License)
 
 ## Overview
@@ -34,6 +34,9 @@ var vis = {
 };
 
 Map.addLayer(ndvi, vis, 'NDVI');
+
+// ADD A COLORBAR!
+print(poke.colorbar("NDVI",vis.min,vis.max,vis.palette))
 ```
 
 ## How does it work?
@@ -70,19 +73,19 @@ print(poke.colorbar("My title",0,100,poke.palettes.charmander))
 
 ## Poke-examples!
 
-### Geodude DEM! [![Code Editor](https://img.shields.io/badge/-Open%20in%20Code%20Editor-white?style=flat&logo=googleearth)](https://code.earthengine.google.com/da89aa6ffb407b0f80c83edc99ca3b8a)
+### Geodude DEM! [![Code Editor](https://img.shields.io/badge/-Open%20in%20Code%20Editor-white?style=for-the-badge&logo=googleearth)](https://code.earthengine.google.com/da89aa6ffb407b0f80c83edc99ca3b8a)
 
 ![geodude](images/geodude.png)
 
-### Charizard LST! [![Code Editor](https://img.shields.io/badge/-Open%20in%20Code%20Editor-white?style=flat&logo=googleearth)](https://code.earthengine.google.com/fce3bd4518ac99229d4e9dd51911fd9b)
+### Charizard LST! [![Code Editor](https://img.shields.io/badge/-Open%20in%20Code%20Editor-white?style=for-the-badge&logo=googleearth)](https://code.earthengine.google.com/fce3bd4518ac99229d4e9dd51911fd9b)
 
 ![charizard](images/charizard.png)
 
-### Metapod NDVI! [![Code Editor](https://img.shields.io/badge/-Open%20in%20Code%20Editor-white?style=flat&logo=googleearth)](https://code.earthengine.google.com/593e7ef08770341e920f4bed8fbcc058)
+### Metapod NDVI! [![Code Editor](https://img.shields.io/badge/-Open%20in%20Code%20Editor-white?style=for-the-badge&logo=googleearth)](https://code.earthengine.google.com/593e7ef08770341e920f4bed8fbcc058)
 
 ![metapod](images/metapod.png)
 
-### Kingdra Precipitation! [![Code Editor](https://img.shields.io/badge/-Open%20in%20Code%20Editor-white?style=flat&logo=googleearth)](https://code.earthengine.google.com/1824d1f55e0b6ab59d66735a3da30e7a)
+### Kingdra Precipitation! [![Code Editor](https://img.shields.io/badge/-Open%20in%20Code%20Editor-white?style=for-the-badge&logo=googleearth)](https://code.earthengine.google.com/1824d1f55e0b6ab59d66735a3da30e7a)
 
 ![kingdra](images/kingdra.png)
 
