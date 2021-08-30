@@ -1,4 +1,5 @@
-# ee-pokepalettes
+![logo](images/pokepalettes-logo.png)
+
 **Pokemon Color Palettes for the Google Earth Engine JavaScript API (Code Editor)**
 
 [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
